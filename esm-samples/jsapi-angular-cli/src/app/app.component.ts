@@ -22,7 +22,7 @@ export class AppComponent implements OnInit, OnDestroy {
     const webmap = new WebMap({
       portalItem: {
         // The original ID works in prod builds.
-        // id: 'aa1d3f80270146208328cf66d022e09c'
+        // id: "aa1d3f80270146208328cf66d022e09c"
         // Probably related to the default renderer of this WebMap:
         id: "e691172598f04ea8881cd2a4adaa45ba"
       }
