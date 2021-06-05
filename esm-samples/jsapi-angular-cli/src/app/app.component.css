@@ -1,4 +1,5 @@
-@import 'https://js.arcgis.com/4.19/@arcgis/core/assets/esri/themes/light/main.css';
+@import "https://js.arcgis.com/4.19/@arcgis/core/assets/esri/themes/dark-purple/main.css";
+
 .esri-view {
   padding: 0;
   margin: 0;
@@ -6,6 +7,7 @@
   width: 100%;
   background-color: indigo;
 }
+
 #mapViewNode {
   padding: 0;
   margin: 0;
