@@ -78,6 +78,7 @@ export class AppComponent implements OnInit, OnDestroy {
   private addLegend(mapView: __esri.MapView): Legend {
     const legend = new Legend({
       view: mapView,
+      // The prod-build issue goes away with the "Accidental Deaths" WebMap if the style property is left to the defaults.
       style: {
         type: "card",
         layout: "stack"
